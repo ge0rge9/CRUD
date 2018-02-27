@@ -1,0 +1,43 @@
+header {
+    max-height: 75px;
+    line-height: 0.5;
+    background: #25427d;
+    font-family: Georgia, sans-serif;
+    // Header row
+    .row {
+        justify-content: space-between;
+
+        h2{
+            font-size: 1.5rem;
+        }
+        a {
+            color: #fffffd;
+            text-decoration: none;
+
+            &:hover h3, &:hover h2 {
+                transform: scale(1.1, 1.1);
+                color: #ffe207;
+            }
+        }
+        // Logo
+        .logo {
+            right: 10px;
+            bottom:  12px;
+            position: relative;
+            transform:  scale(.6, .6);
+
+            &:hover{
+                box-shadow:  0 0 10px 5px #fffffd;
+            }
+        }
+        // Lesson
+        .title {
+            margin-top: 10px
+        }
+        // Creator
+        .creator{
+            margin: 10px 35px 0 0 ;
+            font-family: Lobster, sans-serif;
+        }
+    }
+}

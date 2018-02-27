@@ -1,0 +1,48 @@
+.content {
+    background: url("../../img/bg4.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+
+    .container {
+
+        .buttons{
+            margin-top: 25px;
+            #owners-btn, #cars-btn{
+                background: #b7b5c9;
+                border-color: #b7b5c9;
+            }
+        }
+        .cars-table, .owners-table {
+            thead {
+                text-align: center;
+            }
+            margin-top: 10px;
+            td {
+                text-align: center;
+                input {
+                    margin-right: 5px;
+                }
+            }
+        }
+        .info {
+            .toggle-block {
+                display: none;
+            }
+        }
+        .sell-cars, .add-new-car {
+            width: 50%;
+            margin: 10px auto 0;
+            padding: 10px;
+            background: #212529;
+            color: white;
+            border-radius: 15px;
+            text-align: center;
+            .btn-sell {
+                margin: 10px;
+            }
+            .input-price {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
